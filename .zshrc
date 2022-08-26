@@ -12,3 +12,5 @@ alias vim='nvim'
 
 export LSCOLORS=cxfxcxdxbxegedabagacad
 alias ls="ls -alGF"
+
+autoload -Uz compinit && compinit
