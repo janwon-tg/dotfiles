@@ -55,6 +55,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'fatih/molokai'
 Plug 'cohama/lexima.vim'
 Plug 'mattn/vim-goaddtags'
+"handle Git
+Plug 'tpope/vim-fugitive'
+
 
 " Plugin options
 Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
@@ -77,3 +80,4 @@ endfunction
 let g:rehash256 = 1
 let g:molokai_original = 1
 colorscheme molokai
+
