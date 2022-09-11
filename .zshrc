@@ -107,3 +107,6 @@ AUTO_PUSHD="true"
 
 # alias
 alias dirs="dirs -v"
+
+# beep off
+setopt no_beep
